@@ -8,4 +8,7 @@ package com.mobile.etl.mr;
  * @Description 将hdfs中清洗的数据存储到hdfs中
  **/
 public class ParserDataMapper {
+
+    
+
 }
