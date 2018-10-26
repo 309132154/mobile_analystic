@@ -1,5 +1,7 @@
 package com.mobile.util;
 
+import com.mobile.common.DateEnum;
+
 /**
  * @ClassName TimeUtil
  * @Author lyd
@@ -24,5 +26,14 @@ public class TimeUtil {
      */
     public static String getYesterDay(String pattern){
         return null;
+    }
+
+
+    public static int getDateInfo(long time, DateEnum year) {
+        return 0;
+    }
+
+    public static long getFirstDayOfWeek(long time) {
+        return 0;
     }
 }
