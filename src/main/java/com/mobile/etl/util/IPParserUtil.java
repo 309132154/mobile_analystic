@@ -1,6 +1,7 @@
 package com.mobile.etl.util;
 
 import com.alibaba.fastjson.JSONObject;
+import com.mobile.common.GlobalConstants;
 import com.mobile.etl.util.ip.IPSeeker;
 import org.apache.commons.httpclient.HttpClient;
 import org.apache.commons.httpclient.HttpStatus;
@@ -170,7 +171,7 @@ public class IPParserUtil extends IPSeeker {
      * 用于封装国家、省、市
      */
     public static class RegionInfo{
-        private static final String DEFAULT_VALUE = "unknown";
+        private static final String DEFAULT_VALUE = GlobalConstants.DEFAULT_VALUE;
         private String country = DEFAULT_VALUE;
         private String province = DEFAULT_VALUE;
         private String city = DEFAULT_VALUE;
