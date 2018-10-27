@@ -8,7 +8,7 @@ import com.mobile.analystic.mr.service.impl.DimensionToMysqlImpl;
  * @Author lyd
  * @Date $ $
  * @Vesion 1.0
- * @Description //TODO $
+ * @Description
  **/
 public class DimensionTest {
     public static void main(String[] args) {

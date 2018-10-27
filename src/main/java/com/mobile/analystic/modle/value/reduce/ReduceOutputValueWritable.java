@@ -10,13 +10,13 @@ import java.io.DataOutput;
 import java.io.IOException;
 
 /**
- * @ClassName ReduceOUtputValueWritable
+ * @ClassName ReduceOutputValueWritable
  * @Author lyd
  * @Date $ $
  * @Vesion 1.0
  * @Description reduce阶段输出的value类型
  **/
-public class ReduceOUtputValueWritable extends StatsValueDimension {
+public class ReduceOutputValueWritable extends StatsValueDimension {
     private KpiType kpi;
     private MapWritable value = new MapWritable();
 

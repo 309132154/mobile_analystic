@@ -20,4 +20,6 @@ public class GlobalConstants {
 
     public static final String PASSWORD = "root";
 
+    public static final String PREFFIX_WRITTER = "writer_";
+
 }
